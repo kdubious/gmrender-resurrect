@@ -1,0 +1,24 @@
+diff --git a/src/upnp_renderer.c b/src/upnp_renderer.c
+index 130df7b..6c45ef1 100644
+--- a/src/upnp_renderer.c
++++ b/src/upnp_renderer.c
+@@ -79,13 +79,13 @@ static int upnp_renderer_init(void);
+ static struct upnp_device_descriptor render_device = {
+ 	.init_function          = upnp_renderer_init,
+         .device_type            = "urn:schemas-upnp-org:device:MediaRenderer:1",
+-        .friendly_name          = "GMediaRender",
+-        .manufacturer           = "Ivo Clarysse, Henner Zeller",
+-        .manufacturer_url       = "http://github.com/hzeller/gmrender-resurrect",
+-        .model_description      = PACKAGE_STRING,
+-        .model_name             = PACKAGE_NAME,
++        .friendly_name          = "MusicaPristina",
++        .manufacturer           = "Musica Pristina",
++        .manufacturer_url       = "https://www.musicapristina.com/",
++        .model_description      = "Musica Pristina UPnP Endpoint",
++        .model_name             = "Musica Pristina UPnP",
+         .model_number           = GM_COMPILE_VERSION,
+-        .model_url              = "http://github.com/hzeller/gmrender-resurrect",
++        .model_url              = "https://www.musicapristina.com/",
+         .serial_number          = "1",
+         .udn                    = "uuid:GMediaRender-1_0-000-000-002",
+         .upc                    = "",
